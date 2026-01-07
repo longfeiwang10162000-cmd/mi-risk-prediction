@@ -62,7 +62,7 @@ This approach leverages the strengths of both non-parametric and parametric meth
 - **Final selected features:** 11 predictors  
 - **Cross-validation accuracy:** approximately 0.84  
 - **Test accuracy:** approximately 0.86  
-
+（Performance may vary slightly depending on random seed/split）
 Cross-validation and test performance are closely aligned, indicating good generalization.  
 Several clinical and biochemical indicators consistently ranked as important, highlighting the multifactorial nature of myocardial infarction outcomes.
 
@@ -93,7 +93,6 @@ mi-risk-prediction/
 ├── README.md
 ├── notebooks/
 │   └── MI_Risk_Analysis_interview.ipynb
-├── data/
-│   └── processed datasets (optional)
 └── report/
     └── Bio_Final_Report.pdf
+
